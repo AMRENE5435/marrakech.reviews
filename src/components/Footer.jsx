@@ -128,9 +128,7 @@ const Footer = () => {
             <div className="flex items-center space-x-4 text-sm text-secondary-foreground/80">
               <span>Powered by</span>
               <div className="flex space-x-2">
-                <span className="bg-secondary-foreground/10 px-2 py-1 rounded text-xs">Google Reviews</span>
                 <span className="bg-secondary-foreground/10 px-2 py-1 rounded text-xs">TripAdvisor</span>
-                <span className="bg-secondary-foreground/10 px-2 py-1 rounded text-xs">Airbnb</span>
               </div>
             </div>
           </div>

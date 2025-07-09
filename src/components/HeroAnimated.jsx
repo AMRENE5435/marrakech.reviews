@@ -55,7 +55,7 @@ const HeroAnimated = () => {
           <AnimatedSection delay={0.2}>
             <div className="inline-flex items-center space-x-2 bg-accent/10 text-accent-foreground px-4 py-2 rounded-full text-sm font-medium mb-6">
               <TrendingUp className="h-4 w-4" />
-              <span>Live Reviews from Google, Airbnb & TripAdvisor</span>
+              <span>Live Reviews from TripAdvisor</span>
             </div>
           </AnimatedSection>
 
@@ -73,7 +73,7 @@ const HeroAnimated = () => {
           <AnimatedSection delay={0.6}>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Explore authentic reviews for restaurants, riads, activities, and hidden gems in the Red City. 
-              All aggregated from trusted platforms in one beautiful place.
+              All sourced from TripAdvisor's trusted platform in one beautiful place.
             </p>
           </AnimatedSection>
 

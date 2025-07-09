@@ -12,7 +12,7 @@ const ReviewOfTheDay = () => {
     author: "Sarah M.",
     authorLocation: "London, UK",
     date: "2 days ago",
-    platform: "Google Reviews",
+    platform: "TripAdvisor",
     verified: true,
     helpful: 24,
     images: [
