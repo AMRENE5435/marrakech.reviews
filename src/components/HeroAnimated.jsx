@@ -1,8 +1,9 @@
-import { Button } from '@/components/ui/button'
-import { Search, MapPin, Star, TrendingUp } from 'lucide-react'
-import { motion } from 'framer-motion'
-import AnimatedSection from './AnimatedSection'
-import AnimatedCounter from './AnimatedCounter'
+import { Button } from '@/components/ui/button';
+import { TrendingUp, ArrowRight, Play } from 'lucide-react';
+import { motion } from 'framer-motion';
+import AnimatedSection from './AnimatedSection';
+import AnimatedCounter from './AnimatedCounter';
+import SearchBar from './SearchBar';
 
 const HeroAnimated = () => {
   return (
@@ -79,19 +80,7 @@ const HeroAnimated = () => {
 
           {/* Search Bar */}
           <AnimatedSection delay={0.8}>
-            <div className="max-w-2xl mx-auto mb-8">
-              <div className="relative">
-                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5" />
-                <input
-                  type="text"
-                  placeholder="Search for restaurants, riads, activities..."
-                  className="w-full pl-12 pr-32 py-4 bg-card border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-accent text-lg shadow-lg transition-all duration-300 focus:shadow-xl"
-                />
-                <Button className="absolute right-2 top-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 transition-all duration-300 hover:scale-105">
-                  Search
-                </Button>
-              </div>
-            </div>
+            <SearchBar placeholder="Search for restaurants, riads, activities..." />
           </AnimatedSection>
 
           {/* Stats */}

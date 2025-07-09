@@ -1,11 +1,10 @@
-import Header from './components/Header'
-import HeroAnimated from './components/HeroAnimated'
-import Categories from './components/Categories'
-import FeaturedPlaces from './components/FeaturedPlaces'
-import ReviewOfTheDay from './components/ReviewOfTheDay'
-import Footer from './components/Footer'
-import AnimatedSection from './components/AnimatedSection'
-import './App.css'
+import Header from './components/Header';
+import HeroAnimated from './components/HeroAnimated';
+import FeaturedPlacesAPI from './components/FeaturedPlacesAPI';
+import CategoriesAPI from './components/CategoriesAPI';
+import ReviewOfTheDayAPI from './components/ReviewOfTheDayAPI';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
@@ -13,19 +12,14 @@ function App() {
       <Header />
       <main>
         <HeroAnimated />
-        <AnimatedSection>
-          <Categories />
-        </AnimatedSection>
-        <AnimatedSection>
-          <FeaturedPlaces />
-        </AnimatedSection>
-        <AnimatedSection>
-          <ReviewOfTheDay />
-        </AnimatedSection>
+        <CategoriesAPI />
+        <FeaturedPlacesAPI />
+        <ReviewOfTheDayAPI />
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
